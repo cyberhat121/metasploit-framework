@@ -36,7 +36,7 @@ RUN apk add --no-cache \
     && chmod -R a+r /usr/local/bundle
 
 
-FROM ruby:3.0.5-slim-bullseye
+FROM ruby:3.2-slim-bullseye
 LABEL maintainer="Rapid7"
 
 ENV APP_HOME=/usr/src/metasploit-framework
